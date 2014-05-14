@@ -1,0 +1,237 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#google-header {
+	margin-bottom: 140px;
+}
+
+#top {
+	position: relative;
+	text-align: right;
+	right: 30px;
+	margin-top: 10px;
+}
+
+.topimg {
+	position: relative;
+	height: 23px;
+	width: 23px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 2px;
+	padding-left: 15px;
+	padding-right: 15px;
+	top: 7px;
+}
+
+#sign_in {
+	color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 2px solid white;
+    height: 34px;
+    width: 100px;
+    background: linear-gradient(#4387fd,#4683ea);
+    padding-right: 5px;
+    font-family: arial,sans-serif;
+    font-size: 12pt;
+    outline:none;
+}
+
+#sign_in:hover {
+ box-shadow: 1px 1px 1px #d8d8d8;	
+}
+
+a {
+	text-decoration: none;
+	color: #404040;
+	font-size: 13.7px;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+
+.toplink{
+	padding: 4px;
+	margin-left: 10px;
+}
+
+
+img#logo {
+position: relative;
+display: block;
+margin: auto;
+height: 95px;
+width: 270px;
+
+}
+
+.searchdiv {
+position: relative;
+display: block;
+margin: auto;
+margin-top: 25px;
+outline-color: blue;
+border: 1px solid #ddd;
+width: 43.5%;
+height: 1.4em;
+padding: 3px;
+}
+
+.searchdiv:focus {
+	border: 1px solid #4285f4;
+}
+
+.searchdiv:hover {
+box-shadow: 1px 1px 1px 1px #d8d8d8;
+border:1px solid #c5c5c5;
+
+}
+
+
+#searchbar {
+	margin-top: 1px;
+	width: 93%;
+	font: 16px arial,sans-serif;
+	height: 1.2em;
+	outline: none;
+	border: 0;
+	
+}
+
+
+.microphone {
+	margin-bottom: -7px;
+	margin-left: 8px;
+	width: 23px;
+	height: 23px;
+}
+
+#submitdiv {
+	position: relative;
+	display: block;
+	margin: auto;
+	width: 224px;
+	margin-top: 10px;
+	
+
+}
+#submitone {
+	
+	border-radius: 2px;
+	border: 1px solid #dcdcdc;
+	height: 30px;
+    width: 105px;
+    border: 1px solid #dcdcdc;
+    color: #494444;
+    background-color: #f8f8f8;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: arial;
+    outline: none;
+    padding: 4px 4px 4px 4.5px;
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#f8f8f8),to(#f1f1f1));
+}
+
+#submittwo {
+	border-radius: 2px;
+	border: 1px solid #dcdcdc;
+	height: 30px;
+    width: 105px;
+    margin-left: 10px;
+  font-weight: bold;
+    font-size: 11px;
+    font-family: arial;
+    border: 1px solid #dcdcdc;
+    color: #494444;
+    background-color: #f8f8f8;
+    outline: none;
+    padding: 4px 4px 4px 4.5px;
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#f8f8f8),to(#f1f1f1));
+}
+
+#submitone:active {
+	border: 1px solid blue;
+	outline: none;
+}
+#submittwo:active {
+	border: 1px solid blue;
+	outline: none;
+}
+
+
+#footer {
+	position: fixed;
+	width: 100%;
+	height:30px;
+	bottom:0;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	padding: 10px 10px 3px 10px;
+	font-family: arial,sans-serif;	
+}
+
+.bottomlinks {
+	padding: 15px;
+	text-align: left;
+}
+
+.settinglinks {
+	float: right;
+	margin-right: 35px;
+	padding-right: 10px;
+}
+
+#update {
+	color:#b14436;
+}
+
+	
+
+
